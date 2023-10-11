@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body{
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  width: 100%;
+  min-height: 100vh;
+  max-width: 100;
+  height: 100%;
+
+}
+
+.dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  border: 2px solid white;
+}
+
+.react-toast-notifications__toast__content{
+  font-family: sans-serif;
+  font-size: 2em !important;
+}
